@@ -15,7 +15,7 @@
     "id-length": ["warn"],
     "quote-props": ["warn"],
     "no-unused-vars": ["warn"],
-    "unicorn/consistent-function-scoping": ["warn"]
+    "unicorn/consistent-function-scoping": ["off"]
   },
   "settings": {
     "react": {
