@@ -1,0 +1,56 @@
+{
+  "name": "todos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.5",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "json-server": "^1.0.0-alpha.22",
+    "modern-normalize": "^2.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-scripts": "5.0.1",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.70.0",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "PORT=3001 react-scripts build",
+    "test": "PORT=3001 react-scripts test",
+    "eject": "PORT=3001 react-scripts eject",
+    "lint": "eslint src --fix --ext .js,.jsx,.ts,.tsx"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@wemake-services/eslint-config-javascript": "^2.1.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0"
+  }
+}
